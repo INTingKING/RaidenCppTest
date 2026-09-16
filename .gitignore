@@ -1,0 +1,26 @@
+# build
+/build/
+/out/
+/cmake-build-*/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+CMakeUserPresets.json
+
+# ide
+/.vs/
+/.idea/
+/.vscode/
+*.user
+*.suo
+*.sdf
+*.VC.db
+
+# os
+.DS_Store
+Thumbs.db
+
+# spir-v is compiled into the binary's Assets copy
+*.spv
